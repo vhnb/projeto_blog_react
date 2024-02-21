@@ -1,0 +1,9 @@
+.not_found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.not_found p{
+    color: #e3e3e3;
+}

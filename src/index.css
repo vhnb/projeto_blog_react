@@ -1,0 +1,154 @@
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 0.6vh;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  height: 1vh;
+  position: absolute;
+  width: 1vh;
+  background-color: #1e1e1e;
+}
+
+body {
+  background-color: #f6fcff;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+  
+input::placeholder,
+textarea::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+  
+input:focus,
+textarea:focus {
+  outline: none;
+}
+  
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  transition: 0.2s;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Montserrat", sans-seri;
+  border-radius: 0.5rem;
+}
+  
+a:hover,
+nav button:hover {
+  color: #dc3545;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+nav .btn-logout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+nav .btn-logout .icon-logout{
+  transition: 0.2s;
+  font-size: 3vh;
+}
+nav .btn-logout:hover .icon-logout{
+  color: #dc3545;
+  transition: 0.2s;
+}
+  
+/* form styles */
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(68, 68, 68);
+  padding: 1em 1em;
+  margin-bottom: 1.5%;
+  border-radius: 0.5rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+.btn {
+  background-color: #dc3545;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  transition: 0.2s;
+}
+
+.btn.btn-dark {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  color: #000;
+  transition: 0.2s;
+}
+
+.btn.btn-outline {
+  background-color: transparent;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 7px 30px;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #a7212e;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.btn.btn-outline:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.btn.btn.btn-danger{
+  transition: 0.2s;
+}
+
+.btn.btn-danger:hover {
+  background-color: #dc3545;
+  color: white;
+  transition: 0.2s;
+}
+
+button[disabled] {
+  background-color: #787878;
+  color: #dc3545;
+}
+button[disabled]:hover{
+  background-color: #787878;
+  color: #dc3545;
+}
+
+.container .error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}

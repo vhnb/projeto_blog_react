@@ -1,0 +1,22 @@
+.login {
+  text-align: center;
+  width: 20em;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+  background-color: #1b1b1b;
+}
+  
+.login p {
+  color: #aaa;
+}
+
+.login form{
+  width: 100em;
+}
+.login form input{
+  width: 100%;
+}

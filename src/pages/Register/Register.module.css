@@ -1,0 +1,22 @@
+.register{
+    text-align: center;
+    width: 20em;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #1b1b1b;
+}
+.register p{
+    color: #aaa;
+}
+
+.register form{
+    width: 100em;
+}
+
+.register form input{
+    width: 100%;
+}
